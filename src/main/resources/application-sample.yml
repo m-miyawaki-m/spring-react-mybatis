@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//<DB_HOST>:<DB_PORT>/<DB_SID>  # ← ここを変更
+    username: <USERNAME>
+    password: <PASSWORD>
+    driver-class-name: oracle.jdbc.OracleDriver
+    
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+server:
+  port: 8080

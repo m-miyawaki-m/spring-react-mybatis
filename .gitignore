@@ -1,0 +1,61 @@
+# Java関連
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot
+/target/
+/bin/
+/logs/
+/out/
+/hs_err_pid*
+/*.iml
+
+# Maven
+.mvn/
+!mvn/wrapper/maven-wrapper.jar
+**/mvnw
+**/mvnw.cmd
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/pom.xml.lastUpdated
+**/dependency-reduced-pom.xml
+**/release.properties
+**/buildNumber.properties
+
+# MyBatis関連
+*.log
+*.sql
+*.db
+*.lock
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# VS Code
+.vscode/
+.history/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OSファイル
+.DS_Store
+Thumbs.db
+
+# Lombok キャッシュファイル
+lombok.config
+
+# Git管理から除外する設定ファイル (実際のDB情報はアップロードしない)
+src/main/resources/application.yml
+
+# ただし、サンプル設定はアップロードする
+!src/main/resources/application-sample.yml
